@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a E-COMMARCE website">
+    <title>E-COMMARCE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="upper flex-space-around">
+            <li class="nav-list">
+<a href="index.html" class="nav-link">HOME</a>
+            </li>
+
+ <li class="nav-list">
+<a href="register.html" class="nav-link">REGISTER</a>
+</li>
+<li class="nav-list">
+     <a href="index.html" class="nav-link">LOG IN</a>
+    </li>  
+    <li class="nav-list">
+        <a href="index.html" class="nav-link">LOGOUT</a>
+                    </li> 
+    <li class="nav-list">
+    <a href="contact.html" class="nav-link">CONTACT</a>
+    </li> 
+    <li class="nav-list">
+        <a href="profile.html" class="nav-link">
+            <img class="profile-icon" src="pitom.jpg" alt="icon">
+        </a>
+        </li>            
+        </ul>
+    <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+            <a href="index.html" class="nav__link">Potom Express</a>
+        </li>
+        <li class="nav__list">
+            <a href="card.html" class="nav__link">
+               <span><i class="fa-solid fa-cart-shopping"></i>
+            </span>
+
+Cart 2 product - 124.90$
+            </a>
+        </li>
+    </ul>    
+    </nav>
+
+    <main>
+  <div class="cart flex-space-around">  
+
+<div class="cart-item">
+    <div class="cart-item-head card">
+
+   <h3>Shopping cart[items]</h3>
+   <div class="cart-item-action">
+
+   <label for="action">
+  <input type="checkbox" name="select" id="select">Select more items...  
+   </label>
+   <button class="btn"><i class="fas fa-trash-alt"></i> </button> 
+   <button class="btn">Shop more...</button> 
+   </div>     
+    </div>
+  <div class="cart-item card flex-space-around">
+
+  <input type="checkbox">
+  <img src="headphone.jpg" alt="headphone" class="cart-item-img">
+  
+  <div class="cart-item-des">
+<h3 class="product-name">Wearless headphone(Sony9324)
+</h3>
+<h3 class="rate">Price:&225.90</h3>
+<h3 class="ship">Free shipping</h3>
+
+<div class="cart-item-action">
+  <button class="btn"><i class="fas fa-trash"></i></button>
+  
+  <div>
+    <button class="btn"><i class="fas fa-add"></i></button><span>3</>
+
+    <button class="btn"><i class="fas fa-minus"></i></button>
+  </div>
+</div>
+  </div>
+  </div> 
+  
+  <div class="cart-item card flex-space-around">
+
+    <input type="checkbox">
+    <img src="iphon.jpg" alt="headphone" class="cart-item-img">
+    
+    <div class="cart-item-des">
+  <h3 class="product-name">iPhone 16 Pro (A293)
+  </h3>
+  <h3 class="rate">Price:&225.90</h3>
+  <h3 class="ship">cost shipping</h3>
+  
+  <div class="cart-item-action">
+    <button class="btn"><i class="fas fa-trash"></i></button>
+    
+    <div>
+      <button class="btn"><i class="fas fa-add"></i></button><span>3</>
+  
+      <button class="btn"><i class="fas fa-minus"></i></button>
+    </div>
+  </div>
+    </div>
+    </div> 
+</div>
+<div class="cart-payment">
+<div  class="cart-payment-summary">
+<h3>Payment summary</h3>
+
+<div>
+   <p>Product price:</p>
+   
+  <p>$225.90</p> 
+</div>
+
+<div>
+    <p>shipping price:</p>
+    
+   <p>$25.90</p> 
+ </div>
+
+ <div>
+    <p>total price:</p>
+    
+   <p>$250.90</p> 
+ </div>
+
+ <div class="cart-payment-method card">
+    <h2><strong>Payment method</strong></h2> 
+ 
+ <div class="cart-payment-methods card">
+     <i class="fa-brands fa-cc-visa da-7x"></i>
+ 
+     <i class="fa-brands fa-cc-apple-pay da-3x"></i>
+     <i class="fa-brands fa-cc-amex da-3x"></i>
+ 
+     <i class="fa-brands fa-cc-amazon-pay da-3x"></i>
+     <i class="fa-brands fa-cc-paypal da-3x"></i>
+ </div>
+ </div>
+ <button class="btn cart-payment-btn">Pay now</button>
+</div>
+</div>
+
+</div>
+</main>
+    <!--footer starts-->
+<footer class="footer flex-space-around">
+
+    <div class="flex-space-around">
+   <label for="subscribe">SUBSCRIBE OUR PAGE</label>
+ 
+   <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your email address">
+
+<button class="btn btn-subscribe">SUBSCRIBE</button>
+</div>
+<div>
+
+    <div><p>&copy Copyright 2025.<br>➡️All rights are reserved in potom express</p></div>
+    
+
+</footer>
+    <!--footer ends-->
+</body>
+</html>

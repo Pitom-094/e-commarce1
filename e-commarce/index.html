@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a E-COMMARCE website">
+    <title>E-COMMARCE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+   <i class="fas fa-bar" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="upper flex-space-around">
+            <li class="nav-list">
+<a href="index.html" class="nav-link">HOME</a>
+            </li>
+
+ <li class="nav-list">
+<a href="register.html" class="nav-link" target="_blank">REGISTER</a>
+</li>
+<li class="nav-list">
+     <a href="log.html" class="nav-link" target="_blank">LOG IN</a>
+    </li>  
+    <li class="nav-list">
+        <a href="index.html" class="nav-link">LOGOUT</a>
+                    </li> 
+    <li class="nav-list">
+    <a href="contact.html" class="nav-link">CONTACT</a>
+    </li> 
+    <li class="nav-list">
+        <a href="profile.html" class="nav-link" target="_blank">
+            <img class="profile-icon" src="pitom.jpg" alt="icon">
+        </a>
+        </li>            
+        </ul>
+    <ul class="nav-lower flex-space-around">
+        <li class="nav__list">
+            <a href="index.html" class="nav__link">Potom Express</a>
+        </li>
+        <li class="nav__list">
+            <a href="card.html" class="nav__link">
+               <span><i class="fa-solid fa-cart-shopping"></i>
+            </span>
+
+Cart 2 product - 124.90$
+            </a>
+        </li>
+    </ul>    
+    </nav>
+    <main class="ppp">
+    <h3>HOME PAGE</h3>
+
+</main>
+<!--header starts-->
+<header class="header">
+
+    <div class="banner">
+        <marquee behavior="alternate" direction="left" style="width: 100%; font-size: 20px; font-weight: bold; color: red;">
+            Welcome to Potom Express - Best E-Commerce Platform!
+        </marquee>
+        
+        <div class="features flex-space-around">
+<article class="feature flex-center">
+
+    <i class="fa-solid fa-truck feature_icon"></i>
+    <h2>Shipping within 7days</h2>
+</article>
+<article class="feature flex-center">
+
+    <i class="fa-brands fa-rocketchat feature_icon"></i>
+    <h2>Support 24/7</h2>
+</article>
+
+<article class="feature flex-center">
+
+    <i class="fa-regular fa-credit-card feature_icon"></i>
+    <h2>Safe payment</h2>
+</article>
+        </div>
+    </div>
+</header>
+<!--header ends-->
+<!--catagory starts-->
+<main class="flex-center">
+    <div class="side-bar">
+        <section class="cat-list">
+            <h3 class="sec-title" style="text-align: left;">CATEGORY</h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label for="phone">
+                        <input type="checkbox" name="category" id="phone" value="phone"> PHONE
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="tablet">
+                        <input type="checkbox" name="category" id="tablet" value="tablet"> TABLET
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="head-phone">
+                        <input type="checkbox" name="category" id="head-phone" value="head-phone"> HEADPHONE
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="laptop">
+                        <input type="checkbox" name="category" id="laptop" value="laptop"> LAPTOP
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="television">
+                        <input type="checkbox" name="category" id="television" value="television"> TELEVISION
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="others">
+                        <input type="checkbox" name="category" id="others" value="others"> OTHERS
+                    </label>
+                </li>
+            </ul>    
+        </section>
+        
+        <section class="cat-list">
+            <h3 class="sec-title" style="text-align: left;">PRICE RANGE</h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="price" value="1-10"> 1-10$
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="price" value="10-20"> 10-20$
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="price" value="20-30"> 20-30$
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="price" value="30-40"> 30-40$
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="price" value="40-100"> 40-100$
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="price" value="100+"> 100$+
+                    </label>
+                </li>
+            </ul>    
+        </section>
+        
+        <section class="cat-list">
+            <h3 class="sec-title" style="text-align: left;">SHIPPING OPTION</h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="shipping" value="free"> Free Shipping
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label>
+                        <input type="radio" name="shipping" value="paid"> Paid Shipping
+                    </label>
+                </li>
+            </ul>
+        </section>
+    </div>
+    
+    <div class="main-bar">
+        <section class="action flex-space-around">
+            <div class="action-sort">
+                <label for="sort">Sort by:</label>  
+                <select name="sort" id="sort">
+                    <option value="sold">Most sold first</option>
+                    <option value="rating">Most rated first</option>
+                    <option value="price">Cheapest product</option>
+                    <option value="discount">Discount product</option>
+                    <option value="arrival">Newest product</option>
+                </select>    
+            </div>  
+        
+        <div class="action-search">
+        <input type="text" placeholder="Search option">
+                
+                <button class="btn">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </section>
+<!--product starts-->
+<section class="products">
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="headphone.jpg" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">Wearless headphone(Sony9324)</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        High sound quality & perfect vocal... 
+
+   <a href="product.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$225.99</h4>
+   <p class="product_rating">4/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>10 in stock</span><hr class="hr-design">
+    <span>6 sold</span>
+    </div>
+<img src="apple.jpg" class="pro-img" alt="smart-watch">
+<div class="product_bdy">
+
+    <h3 class="product_name">Apple watch(255)</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        Easy ways to stay connected. Motivating fitness...
+
+   <a href="pro1.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$250.90</h4>
+   <p class="product_rating">4.5/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="glass.jpg" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">Sunglass</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        New sunglasses for man bhuiyan optics...
+
+   <a href="pro2.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$5.31</h4>
+   <p class="product_rating">5/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="television.png" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">Samsung 32T4400 32</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        HD LED Smart TV...
+
+   <a href="pro3.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price>$500</h4>
+   <p class="product_rating">4.2/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="tab.png" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">Walton Walpad </h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        8G 4GB RAM 64GB Storage 8" Tablet...
+
+   <a href="pro4.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$200</h4>
+   <p class="product_rating">4/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="router.jpg" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">Wavlink WL-WN529K2</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        300Mbps Smart Wi-Fi Router...
+
+   <a href="pro5.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$25</h4>
+   <p class="product_rating">4.3/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="iphon.jpg" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name"> iPhone 16 Pro (A293)</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        New "Camera Control Button", Face ID...
+
+   <a href="pro6.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$225.99</h4>
+   <p class="product_rating">4/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="camera.png" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">Canon EOS 90</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        32.5MP DSLR Camera with EF-S 18-135mm IS USM Lens... 
+
+   <a href="pro7.html" class="learn-more">Learn more..</a>  
+   <h4 class="product_price">$225.99</h4>
+   <p class="product_rating">4/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+<article class="product card">
+    <div class="badge">
+    <span>6 in stock</span><hr class="hr-design">
+    <span>3 sold</span>
+    </div>
+<img src="cc-cam.png" class="pro-img" alt="phone">
+<div class="product_bdy">
+
+    <h3 class="product_name">TP-Link VIGI</h3>
+   <p> <span class="dot green"></span>
+
+    <span class="dot black"></span>
+    <span class="dot red"></span></p>
+
+    <p class="product_des">
+        420I 2MP IR Turret IP Camera
+
+   <a href="pro8.html" class="learn-more">view. more..</a>  
+   <h4 class="product_price">$225.99</h4>
+   <p class="product_rating">4/5</p>
+   <button class="btn">add to cart</button>   
+    </p>
+</div>
+</article>
+</section>
+
+<div class="page">
+<button class="btn page"><i class="fas fa-less-than"></i></button>
+
+<button class="btn page">2</button>
+<button class="btn page">3</button>
+<button class="btn page">4</button>
+<button class="btn page">5</button>
+<button class="btn page">6</button>
+<button class="btn page">7</button>
+<button class="btn page">8</button>
+<button class="btn page">9</button>
+<button class="btn page">10</button>
+<button class="btn page">...</button>
+<button class="btn page">50</button>
+
+<button class="btn page"><i class="fas fa-greater-than"></i></button>
+</div>
+<!--product ends-->
+    </div>
+</main>
+
+       
+
+
+<!--catagory ends-->
+    <!--footer starts-->
+<footer class="footer flex-space-around">
+
+    <div class="flex-space-around">
+   <label for="subscribe">SUBSCRIBE OUR PAGE</label>
+ 
+   <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your email address">
+
+<button class="btn btn-subscribe">SUBSCRIBE</button>
+</div>
+<div>
+
+    <div><p>&copy Copyright 2025.<br>➡️All rights are reserved in potom express</p></div>
+    
+
+</footer>
+    <!--footer ends-->
+</body>
+</html>

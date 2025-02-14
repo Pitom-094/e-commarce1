@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an E-COMMERCE website">
+    <title>E-COMMERCE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul class="upper flex-space-around">
+            <li class="nav-list"><a href="register.html" class="nav-link" target="_blank">REGISTER</a></li>
+            <li class="nav-list"><a href="log.html" class="nav-link" target="_blank">LOG IN</a></li>  
+            <li class="nav-list"><a href="index.html" class="nav-link">LOGOUT</a></li> 
+            <li class="nav-list"><a href="contact.html" class="nav-link">CONTACT</a></li> 
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img class="profile-icon" src="pitom.jpg" alt="icon">
+                </a>
+            </li>            
+        </ul>
+    </nav>
+
+    <!-- Login Page -->
+    <main>
+        <section class="log">
+
+            <h3 class="sec-title text-cen">USER Log-in</h3>
+            <div class="card-log">
+          
+              <form class="form">
+             <div class="form-con flex-space-around">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="name" required autocomplete="name">
+             </div>  
+             <div class="form-con flex-space-around">
+          
+              <label for="email">E-mail</label>
+              <input type="text" id="email" placeholder="email" required autocomplete="email">
+             </div>  
+             <div class="form-con flex-space-around">
+          
+              <label for="password">password</label>
+              <input type="text" id="password" placeholder="password" required autocomplete="password">
+             </div>  
+             
+            <div class="form-con flex-space-around form-btn-field">
+              <button type="submit" class="btn con-btn">SUBMIT</button>    
+            </div>
+              </form>
+            </div>  
+             </section>        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">SUBSCRIBE TO OUR PAGE</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your email address">
+            <button class="btn btn-subscribe">SUBSCRIBE</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2025.<br>➡️ All rights reserved in Potom Express</p>
+        </div>
+    </footer>
+</body>
+</html>
